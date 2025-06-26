@@ -1,0 +1,353 @@
+# Environment variables (contains sensitive API keys, database paths)
+.env
+.env.local
+.env.*.local
+
+src/__tests__/
+bun.lock
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/ # If using pnpm
+
+# Bun.js artifacts
+bun.lockb
+.bun/
+
+# Build artifacts
+dist/
+build/
+out/
+
+# ElizaOS specific local data
+.eliza/
+.eliza.db # Explicitly ignore local database files if not inside .eliza/
+
+# Test coverage reports
+coverage/
+
+# Logs
+*.log
+logs/
+
+# IDE and OS specific files
+.idea/             # IntelliJ IDEA
+.vscode/           # VS Code
+.DS_Store          # macOS
+Thumbs.db          # Windows
+*.swp              # Vim swap files
+*~                 # Backup files from some editors
+
+# Additional unnecessary files
+# Cache directories
+.cache/
+.parcel-cache/
+.vite/
+.turbo/
+.next/
+.nuxt/
+.output/
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+.temp/
+
+# OS generated files
+.DS_Store?
+ehthumbs.db
+Icon?
+*.lnk
+desktop.ini
+
+# Editor files
+*.sublime-project
+*.sublime-workspace
+.atom/
+.brackets.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env.test
+
+# parcel-bundler cache (https://parceljs.org/)
+.parcel-cache
+
+# next.js build output
+.next
+
+# nuxt.js build output
+.nuxt
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# Playwright
+test-results/
+playwright-report/
+playwright/.cache/
+
+# Storybook build outputs
+storybook-static
+
+# Temporary folders
+tmp/
+temp/
+
+# Local development files
+*.local
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup
+
+# Lock files (keep only the main one)
+# bun.lock is already tracked, so we don't ignore it
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# TypeScript
+*.tsbuildinfo
+
+# Svelte
+.svelte-kit/
+
+# Rollup
+.rollup.cache/
+
+# Webpack
+.webpack/
+
+# Babel
+.babel-cache/
+
+# Jest
+.jest/
+
+# Prettier
+.prettierignore
+
+# ESLint
+.eslintignore
+
+# Stylelint
+.stylelintignore
+
+# Husky
+.husky/
+
+# Lint-staged
+.lint-staged/
+
+# Commitizen
+.czrc
+
+# Conventional Changelog
+.changelog/
+
+# Sentry
+.sentryclirc
+
+# Vercel
+.vercel
+
+# Netlify
+.netlify
+
+# Firebase
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# Docker
+.dockerignore
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Kubernetes
+*.kubeconfig
+
+# Helm
+charts/*.tgz
+
+# Ansible
+*.retry
+
+# Vagrant
+.vagrant/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Ruby
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+/tmp/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+
+# C/C++
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Rust
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# PHP
+/vendor/
+composer.phar
+composer.lock
+
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.pdb
+*.pgc
+*.pgco
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# Misc
+*.orig
+*.rej
+*~
+*.swp
+*.swo
+*#
+
+# Local configuration overrides
+config.local.*
+settings.local.*

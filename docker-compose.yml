@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  elizaos_app:
+    build: .
+    container_name: elizaos_project_container
+    environment:
+      - GROQ_API_KEY
+      - TWITTER_API_KEY
+      - TWITTER_API_SECRET
+      - TWITTER_ACCESS_TOKEN
+      - TWITTER_ACCESS_TOKEN_SECRET
+      - TELEGRAM_BOT_TOKEN
+      - DISCORD_API_TOKEN
+
+    ports:
+      - "3000:3000" 
+
+    volumes:
+      - ./data:/app/data 
